@@ -3,12 +3,12 @@ cask "pimsalab" do
 
   on_arm do
     url "https://github.com/spiderzest/pimsalab/releases/download/v#{version}/PimSalab_#{version}_aarch64.dmg"
-    sha256 "f40b458a003bf3f1f4062b07e94b55913731357c34e19973041ee22e4d4890c1"
+    sha256 "bf6a2e2b483b6c5964ed4aa938251e269ac957d17f411e30040b52e41c7ecd3d"
   end
 
   on_intel do
     url "https://github.com/spiderzest/pimsalab/releases/download/v#{version}/PimSalab_#{version}_x64.dmg"
-    sha256 "39523a88a271b0da9701b6a40519818402605f2a1acee936893f48102435806c"
+    sha256 "2ad72877649e8911bf1c1de7d3671fb9ba88fa3a38ba317c607e4f907fbeb4b8"
   end
 
   name "PimSalab"
